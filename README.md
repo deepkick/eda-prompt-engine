@@ -90,7 +90,7 @@ Prompt 設計に適用しています。
 2. 内容を LLM（例：ChatGPT）に貼り付け
 3. `tests/titanic_summary.txt` を入力
 4. 出力を `evaluations/` に保存
-5. `regression_checklist.md` で確認
+5. `evaluations/gpt52/titanic/regression_checklist.md で確認` で確認
 
 ---
 
