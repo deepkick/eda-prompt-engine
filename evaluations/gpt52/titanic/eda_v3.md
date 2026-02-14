@@ -6,6 +6,18 @@
 - Input: tests/titanic_summary.txt
 - Chat: new chat (no prior context)
 - Notes: (optional) UI / settings if relevant
+- Temperature: default (UI)
+
+---
+
+## Test Observations
+- 型分類の導入: ○
+- ContinuousのみIQR適用: ○
+- Count/Binaryの外れ値誤適用回避: ○
+- 不足情報の明示: ○
+- 曖昧語の排除: ほぼ達成
+- 成功判定の定量化: 不十分
+- ガバナンス耐性: 高
 
 ---
 

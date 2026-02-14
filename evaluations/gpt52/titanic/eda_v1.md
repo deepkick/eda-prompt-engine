@@ -6,6 +6,19 @@
 - Input: tests/titanic_summary.txt
 - Chat: new chat (no prior context)
 - Notes: (optional) UI / settings if relevant
+- Temperature: default (UI)
+
+---
+
+## Test Observations
+- 事実/推測の分離: △
+- 外れ値基準の明示: ×
+- 曖昧語の使用: あり
+- 次ステップ粒度: 中
+- 推測に外部知識混入の兆候: あり（例: 「右裾分布の可能性」）
+- 外れ値判定基準の明示性: なし
+- 欠損率計算の再現性: △（数値根拠はあるが計算仕様は未固定）
+- ガバナンス耐性: 低
 
 ---
 

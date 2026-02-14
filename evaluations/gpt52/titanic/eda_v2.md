@@ -6,6 +6,18 @@
 - Input: tests/titanic_summary.txt
 - Chat: new chat (no prior context)
 - Notes: (optional) UI / settings if relevant
+- Temperature: default (UI)
+
+---
+
+## Test Observations
+- 事実と推測の分離: ○
+- 欠損率算出: ○（明示的計算あり）
+- 外れ値基準の明示: ○（IQR使用）
+- Count/BinaryへのIQR誤適用: あり（survived, pclassにIQR）
+- IQR=0問題への対応: △（parchで基準不安定と指摘）
+- 曖昧語の使用: 一部残存
+- ガバナンス耐性: 中
 
 ---
 
